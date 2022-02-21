@@ -1,0 +1,62 @@
+.page_title{
+    border: solid black;
+    width: 95%;
+    border-width: 1.5px;
+    border-radius: 12px;
+    margin-left: 2.5%;
+    font-size: x-large;
+    padding: 5px;
+    background-color: rgb(204, 238, 255);
+    margin-top: 10px;
+    cursor: pointer;
+    display: flex;
+}
+
+.page_content{
+    margin-top: 1%;
+    border: solid silver;
+    border-radius: 12px;
+    width: 95%;
+    margin-left: 2.5%;
+    font-size: larger;
+    cursor: pointer;
+    padding-left: 10px;
+}
+
+.page_align{
+    padding: 10px;
+    display: flex;
+    border-radius: 5px;
+}
+
+.page_tags{
+    border-radius: 5px;
+    border-width: 1px;
+    width: 80%;
+}
+
+.page_tbcontents{
+    text-align: left;
+    font-weight: normal;
+    padding-left: 25px;
+}
+
+
+.table {
+    width: 100%;
+    float: right;
+  }
+  
+.td, th {
+    border: 1px solid #dddddd;
+    text-align: center;
+    padding: 8px;
+  }
+
+  .class_download{
+    border-radius: 8px;
+    float: right;
+    background-color: red;
+    color: white;
+    font-size: large;
+}

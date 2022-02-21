@@ -1,0 +1,66 @@
+<div>
+    <div class="row" style="padding:0;margin: 0;">
+        <div class="col-lg-5" style="background-color: white; height: 100vh;">
+        <div>
+            <div>
+                <div style="font-size: 40;">
+                <div style="padding-left: 1.4cm;padding-top: 2cm;">
+                    <div>
+                        <img src="../assets/images/envato.jpg" width="150" height="50">
+                    </div>
+                </div>
+                </div>
+          
+            <div style="padding-left: 2cm;padding-top: 0.5;">
+            </div>
+        <div  *ngIf="showPage=='Signin'">
+            <div style="padding-left: 2cm;padding-top: 50px;">
+                <div style="font-size: large;" >
+                    <label for="Uname"><b>Email/username</b></label>
+                    <div> <input type="text"style="font-size: 25px; opacity: 0.5; border:none; width: 90%;" placeholder="Enter your Email/ username" [(ngModel)]="user_name"  name="name1"  id="nme1" required></div>
+                </div>
+            </div>
+            <div style="padding-left: 2cm;">
+                <div style="line-height: 0.5cm; padding-top: 30px;">
+                <label type="Pwd"><b>Password</b></label>
+                <div><input type="password" style="font-size: 25px;border:none;width: 90%;opacity: 0.5;" placeholder="********" [(ngModel)]="password" name="name2" id="nme2" required > </div>
+                </div>
+            </div>
+            <div style="padding-left: 2cm;padding-top: 2px;">
+                <span>
+                    <input type="checkbox" name="remember" id="remember" [checked]="remember=='yes'?true:false" [(ngModel)]=forgot_email>Remember me
+                </span>
+                <span style="padding-left:200px"(click)="forgot_password()"><button type="submit" style="font-size: 16px;border: none;background-color: white;">Forgot Password?</button></span>
+                <div style="padding-top: 0.5cm;">
+                    <button  type="submit" (click)="sign_in()" style="font-size: 20px; background-color: blue ;opacity: 70%; color: blanchedalmond; width: 90% ;text-align:center;border-radius: 6px;">Sign In</button>
+                </div>
+                <div style="line-height: 1cm;padding-top: 0.5cm;opacity: 0.5;"> ---------------------------------------Or--------------------------------------</div>
+            </div>
+        </div>
+            <div style="display: flex;padding: 35px;margin-left: 235px;">
+                <div style="background-color:whitesmoke;padding: 8px;border-radius: 4px;">
+                    <span style="color: cornflowerblue;">G</span>
+                    <span style="color: crimson;">o</span>
+                    <span style="color: gold;">o</span> 
+                    <span style="color: deepskyblue;">g</span>    
+                    <span style="color: rgba(128, 255, 0, 0.671);">l</span>  
+                    <span style="color: crimson;">e</span>
+                </div>
+                <div style="margin-left: 30px;background-color: whitesmoke;padding: 8px;border-radius: 4px;">New user</div>
+            </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-lg-7" >
+            <div>
+                <img src="../assets/images/image123.jpg" width="980px" height="828px">
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+
+
+
